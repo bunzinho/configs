@@ -1,0 +1,9 @@
+[Icon Theme]
+Name=bunzinho
+Comment=bunzinho theme
+Directories=icons
+Inherits=Default
+
+[icons]
+Size=16
+Type=Scalable
