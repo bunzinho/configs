@@ -1,24 +1,26 @@
-"ui.background" = { bg = "darkbrown" }
+"ui.background" = { fg = "tanwhite", bg = "darkbrown" }
 "ui.background.seperator" = { bg = "brown"}
-"ui.menu" = { fg = "yellowwhite", bg = "darkblue" }
-"ui.menu.selected" = { fg = "base01", bg = "base04", modifiers = ["bold"] }
-"ui.popup" = { bg = "darkblue" }
+"ui.menu" = { fg = "tanwhite", bg = "darkblue" }
+"ui.menu.selected" = { fg = "darkblue", bg = "lightgreen", modifiers = ["bold"] }
+"ui.popup" = { bg = "darkblue", fg="pink"}
 "ui.selection" = { bg = "blue" }
 "comment" = { fg = "grey" }
 "ui.cursor" = { fg = "lightgreen", modifiers = ["reversed"] }
 "ui.cursor.primary" = { fg = "lightgreen", modifiers = ["reversed"] }
-"ui.text" = "yellowwhite"
-"variable" = "orange"
-"constant" = "pink"
+"ui.text" = "tanwhite"
+"ui.text.focus" = { fg = "lightgreen", bg="darkblue", modifiers = ["bold"] }
+"namespace" = "red"
 "type" = "red"
+"variable" = "orange"
+"function" = "yellow"
+"type.builtin" = "lightgreen"
 "string"  = "green"
 "variable.parameter" = "lightblue"
-"constant.character.escape" = "pink"
-"function" = "yellow"
+"constant" = "pink"
 "keyword" = "purple"
-"namespace" = "red"
+"keyword.storage" = "lightgreen"
 
-"ui.statusline" = { fg = "yellowwhite" }
+"ui.statusline" = { fg = "tanwhite" }
 "ui.statusline.inactive" = { fg = "lightbrown" }
 "ui.gutter" = { bg = "darkbrown" }
 "ui.linenr" = { fg = "lightbrown" }
@@ -44,7 +46,7 @@ lightbrown = "#887e66"
 red = "#d24858"
 orange = "#d27448"
 yellow = "#ffd166"
-yellowwhite = "#ffeec0"
+tanwhite = "#ffeec0"
 blue = "#2a4977"
 darkblue = "#21232c"
 lightblue = "#8dcae6"
@@ -54,19 +56,3 @@ lightgreen = "#a8f36f"
 purple = "#c191ff"
 grey = "#5b5e66"
 
-base00 = "#1f1c1b" # Default Background
-base01 = "#282828" # Lighter Background (Used for status bars, line number and folding marks)
-base02 = "#383838" # Selection Background
-base03 = "#5b5e66" # Comments, Invisibles, Line Highlighting
-base04 = "#b8b8b8" # Dark Foreground (Used for status bars)
-base05 = "#d8d8d8" # Default Foreground, Caret, Delimiters, Operators
-base06 = "#e8e8e8" # Light Foreground (Not often used)
-base07 = "#f8f8f8" # Light Background (Not often used)
-base08 = "#ab4642" # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
-base09 = "#ecaad2" # Integers, Boolean, Constants, XML Attributes, Markup Link Url
-base0A = "#d24858" # Classes, Markup Bold, Search Text Background
-base0B = "#a1b56c" # Strings, Inherited Class, Markup Code, Diff Inserted
-base0C = "#86c1b9" # Support, Regular Expressions, Escape Characters, Markup Quotes
-base0D = "#ffd166" # Functions, Methods, Attribute IDs, Headings
-base0E = "#c191ff" # Keywords, Storage, Selector, Markup Italic, Diff Changed
-base0F = "#a16946" # Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
