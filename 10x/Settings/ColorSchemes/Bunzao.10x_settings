@@ -90,31 +90,31 @@ Language.Number:                       240, 140, 220
 Language.Keyword:                      193, 145, 255
 
 # 
-Language.Preprocessor:                 255, 209, 102
+Language.Preprocessor:                 193, 145, 255
 
 # 
 Language.Comment:                      105, 105, 105
 
 # 
-Language.Brace:                        200, 200, 200
+Language.Brace:                        255, 238, 192
 
 # 
-Language.Bracket:                      200, 200, 200
+Language.Bracket:                      255, 238, 192
 
 # 
-Language.SquareBracket:                200, 200, 200
+Language.SquareBracket:                255, 238, 192
 
 # 
-Language.SemiColon:                    200, 200, 200
+Language.SemiColon:                    255, 238, 192
 
 # 
-Language.Operator:                     200, 200, 200
+Language.Operator:                     255, 238, 192
 
 # 
 Language.String:                       130, 180, 130
 
 # 
-Language.Comma:                        200, 200, 200
+Language.Comma:                        255, 238, 192
 
 # 
 Language.Class:                        210, 72, 88
@@ -156,7 +156,7 @@ Editor.Margin:                         default
 Build.BuildError:                      255, 100, 100
 
 # 
-TreeNodeText:                          200, 200, 200
+TreeNodeText:                          255, 238, 192
 
 # 
 TreeNodeTextActive:                    255, 255, 255
