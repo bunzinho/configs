@@ -1,25 +1,27 @@
+"namespace" = "red"
+"type" = "red"
+"variable" = "orange"
+"function" = "yellow"
+"type.builtin" = "red"
+"string"  = "green"
+"variable.parameter" = "lightblue"
+"constant" = "pink"
+"keyword" = "purple"
+"keyword.storage" = "lightgreen"
+"comment" = { fg = "grey" }
+
 "ui.background" = { fg = "tanwhite", bg = "darkbrown" }
 "ui.background.seperator" = { bg = "brown"}
 "ui.menu" = { fg = "tanwhite", bg = "darkblue" }
 "ui.menu.selected" = { fg = "darkblue", bg = "lightgreen", modifiers = ["bold"] }
 "ui.popup" = { bg = "darkblue", fg="pink"}
 "ui.selection" = { bg = "blue" }
-"comment" = { fg = "grey" }
 "ui.cursor" = { fg = "lightgreen", modifiers = ["reversed"] }
 "ui.cursor.primary" = { fg = "lightgreen", modifiers = ["reversed"] }
 "ui.text" = "tanwhite"
 "ui.text.focus" = { fg = "lightgreen", bg="darkblue", modifiers = ["bold"] }
-"namespace" = "red"
-"type" = "red"
-"variable" = "orange"
-"function" = "yellow"
-"type.builtin" = "lightgreen"
-"string"  = "green"
-"variable.parameter" = "lightblue"
-"constant" = "pink"
-"keyword" = "purple"
-"keyword.storage" = "lightgreen"
 
+"ui.help" = { bg = "darkblue", fg = "pink" }
 "ui.statusline" = { fg = "tanwhite" }
 "ui.statusline.inactive" = { fg = "lightbrown" }
 "ui.gutter" = { bg = "darkbrown" }
