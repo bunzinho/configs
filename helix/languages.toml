@@ -1,8 +1,9 @@
 [[language]]
 name = "cpp"
 
-[[language]]
-name = "c"
-
 [language-server.clangd.config]
-fallbackFlags = ["-std=c++23", "-std=c23", "-Wall", "-Wextra"]
+fallbackFlags = ["-std=c++23",  "-Wall", "-Wextra"]
+
+[[language]]
+name = "odin"
+indent = { tab-width = 1, unit = "\t"}

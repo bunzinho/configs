@@ -9,21 +9,28 @@
 "keyword" = "purple"
 "keyword.storage" = "lightgreen"
 "comment" = { fg = "grey" }
+"special" = "purple"
 
 "ui.background" = { fg = "tanwhite", bg = "darkbrown" }
-"ui.background.seperator" = { bg = "brown"}
+"ui.background.separator" = { fg = "tanwhite" }
 "ui.menu" = { fg = "tanwhite", bg = "darkblue" }
 "ui.menu.selected" = { fg = "darkblue", bg = "lightgreen", modifiers = ["bold"] }
 "ui.popup" = { bg = "darkblue", fg="pink"}
 "ui.selection" = { bg = "blue" }
+
+"ui.window" = { fg = "brown" }
+
+"ui.statusline" = { fg = "tanwhite", bg="darkblue" }
+"ui.statusline.inactive" = { fg = "lightbrown", bg="brown" }
+
 "ui.cursor" = { fg = "lightgreen", modifiers = ["reversed"] }
 "ui.cursor.primary" = { fg = "lightgreen", modifiers = ["reversed"] }
+#"ui.cursor.match" = { bg = "red", fg ="tanwhite", modifiers = ["bold"] }
+
 "ui.text" = "tanwhite"
 "ui.text.focus" = { fg = "lightgreen", bg="darkblue", modifiers = ["bold"] }
 
 "ui.help" = { bg = "darkblue", fg = "pink" }
-"ui.statusline" = { fg = "tanwhite" }
-"ui.statusline.inactive" = { fg = "lightbrown" }
 "ui.gutter" = { bg = "darkbrown" }
 "ui.linenr" = { fg = "lightbrown" }
 "ui.linenr.selected" = { fg = "lightgreen", modifiers = [""] }
