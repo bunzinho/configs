@@ -1,0 +1,14 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+	"font_face": "ProggyCleanTTSZ",
+	"font_size": 12,
+	"tab_size": 2,
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
+	"color_scheme": "Bunzao.sublime-color-scheme",
+}

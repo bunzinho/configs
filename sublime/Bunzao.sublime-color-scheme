@@ -1,0 +1,64 @@
+{
+ "name": "Bunzão",
+ "variables":
+  {
+    "darkbrown":  "#1f1c1b",
+    "brown":  "#38302d",
+    "lightbrown":  "#8E836B",
+    "red":  "#d24858",
+    "lightorange":  "#f09469",
+    "orange":  "#d27448",
+    "yellow":  "#ffd166",
+    "tanwhite":  "#ffeec0",
+    "blue":  "#2a4977",
+    "darkblue":  "#21232c",
+    "lightblue":  "#8dcae6",
+    "pink":  "#ecaad2",
+    "green":  "#8fb38f",
+    "lightgreen":  "#a8f36f",
+    "purple":  "#c191ff",
+    "grey":  "#5b5e66"
+  },
+ "globals": {
+  "background": "var(darkbrown)",
+  "foreground": "var(tanwhite)",
+  "brackets_foreground": "var(tanwhite)",
+  "caret": "var(lightgreen)",
+  "line_highlight": "var(brown)",
+  "selection": "var(blue)"
+ },
+"rules": [
+  {
+    "scope": "source",
+    "foreground": "var(orange)"
+  },
+  {
+    "scope": "entity",
+    "foreground": "var(red)"
+  },
+  {
+    "scope": "storage",
+    "foreground": "var(purple)"
+  },
+  {
+    "scope": "support.function",
+    "foreground": "var(yellow)"
+  },
+  {
+    "scope": "keyword.control",
+    "foreground": "var(purple)"
+  },
+  {
+    "scope": "keyword.operator",
+    "foreground": "var(tanwhite)"
+  },
+  {
+    "scope": "string",
+    "foreground": "var(green)"
+  },
+  {
+    "scope": "constant",
+    "foreground": "var(pink)"
+  }
+ ]
+}
