@@ -50,7 +50,7 @@
   },
   {
     "scope": "keyword.operator.word",
-    "foreground": "var(lightgreen)"
+    "foreground": "var(purple)"
   },
   {
     "scope": "keyword.control",
@@ -72,5 +72,9 @@
     "scope": "variable.parameter",
     "foreground": "var(lightblue)"
   },
+  {
+    "scope": "storage.modifier",
+    "foreground": "var(lightbrown)"
+  }
  ]
 }
