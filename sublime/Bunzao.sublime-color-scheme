@@ -33,23 +33,31 @@
     "foreground": "var(orange)"
   },
   {
-    "scope": "entity",
+    "scope": "entity, support.type, storage.type",
     "foreground": "var(red)"
+  },
+  {
+    "scope": "meta.block",
+    "foreground": "var(orange)"
   },
   {
     "scope": "storage",
     "foreground": "var(purple)"
   },
   {
-    "scope": "support.function",
+    "scope": "support.function, entity.name.function, variable.function",
     "foreground": "var(yellow)"
+  },
+  {
+    "scope": "keyword.operator.word",
+    "foreground": "var(lightgreen)"
   },
   {
     "scope": "keyword.control",
     "foreground": "var(purple)"
   },
   {
-    "scope": "keyword.operator",
+    "scope": "keyword.operator, punctuation.accessor",
     "foreground": "var(tanwhite)"
   },
   {
@@ -59,6 +67,10 @@
   {
     "scope": "constant",
     "foreground": "var(pink)"
-  }
+  },
+  {
+    "scope": "variable.parameter",
+    "foreground": "var(lightblue)"
+  },
  ]
 }
