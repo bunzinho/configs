@@ -61,7 +61,7 @@
     "foreground": "var(tanwhite)"
   },
   {
-    "scope": "string",
+    "scope": "string, storage.type.string, punctuation.definition.string",
     "foreground": "var(green)"
   },
   {
@@ -74,7 +74,7 @@
   },
   {
     "scope": "storage.modifier",
-    "foreground": "var(lightbrown)"
+    "foreground": "var(lightgreen)"
   }
  ]
 }
