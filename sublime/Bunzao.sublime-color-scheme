@@ -57,7 +57,7 @@
     "foreground": "var(purple)"
   },
   {
-    "scope": "keyword.operator, punctuation.accessor",
+    "scope": "keyword.operator, punctuation",
     "foreground": "var(tanwhite)"
   },
   {
