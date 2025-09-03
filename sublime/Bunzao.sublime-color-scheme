@@ -57,7 +57,7 @@
     "foreground": "var(purple)"
   },
   {
-    "scope": "keyword.operator, punctuation",
+    "scope": "keyword.operator, keyword.logic, punctuation",
     "foreground": "var(tanwhite)"
   },
   {
@@ -75,6 +75,10 @@
   {
     "scope": "storage.modifier",
     "foreground": "var(lightgreen)"
+  },
+  {
+    "scope": "comment, punctuation.definition.comment",
+    "foreground": "var(grey)"
   }
  ]
 }
