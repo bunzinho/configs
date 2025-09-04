@@ -1,9 +1,25 @@
 [[language]]
 name = "cpp"
+language-servers = ["clangd.cpp"]
 
-[language-server.clangd.config]
+[language-server.clangd.cpp]
 fallbackFlags = ["-std=c++23",  "-Wall", "-Wextra"]
+
+[[language]]
+name = "c"
+language-servers = ["clangd.c"]
+
+[language-server.clangd.c]
+fallbackFlags = ["-std=c17",  "-Wall", "-Wextra"]
 
 [[language]]
 name = "odin"
 indent = { tab-width = 1, unit = "\t"}
+
+[[language]]
+name = "gdscript"
+language-servers = ["gdscript"]
+
+[language-server.gdscript]
+command = "ncat"
+args = ["127.0.0.1", "6005"]
