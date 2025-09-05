@@ -9,7 +9,7 @@
 "keyword" = "purple"
 "keyword.storage" = "lightgreen"
 "comment" = { fg = "grey" }
-"special" = "purple"
+"special" = "red"
 
 "ui.background" = { fg = "tanwhite", bg = "darkbrown" }
 "ui.background.separator" = { fg = "tanwhite" }
@@ -19,6 +19,8 @@
 "ui.selection" = { bg = "blue" }
 
 "ui.window" = { fg = "brown" }
+
+"ui.virtual" = { fg = "lightblue" }
 
 "ui.statusline" = { fg = "tanwhite", bg="darkblue" }
 "ui.statusline.inactive" = { fg = "lightbrown", bg="brown" }
@@ -33,7 +35,7 @@
 "ui.help" = { bg = "darkblue", fg = "pink" }
 "ui.gutter" = { bg = "darkbrown" }
 "ui.linenr" = { fg = "lightbrown" }
-"ui.linenr.selected" = { fg = "lightgreen", modifiers = [""] }
+"ui.linenr.selected" = { fg = "lightgreen" }
 "info" = "pink"
 "hint" = "lightblue"
 "debug" = "orange"
@@ -64,4 +66,3 @@ green = "#83aa83"
 lightgreen = "#a8f36f"
 purple = "#c191ff"
 grey = "#5b5e66"
-
