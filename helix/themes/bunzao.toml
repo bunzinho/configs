@@ -20,7 +20,7 @@
 
 "ui.window" = { fg = "brown" }
 
-"ui.virtual" = { fg = "lightblue" }
+"ui.virtual.jump-label" = { fg = "lightblue" }
 
 "ui.statusline" = { fg = "tanwhite", bg="darkblue" }
 "ui.statusline.inactive" = { fg = "lightbrown", bg="brown" }
