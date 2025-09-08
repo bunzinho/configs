@@ -16,7 +16,7 @@
 "ui.menu" = { fg = "black", bg = "grey" }
 "ui.menu.selected" = { fg = "white", bg = "red", modifiers = ["bold"] }
 "ui.popup" = { fg="red", bg = "grey"}
-"ui.selection" = { fg = "white", bg = "red", modifiers = ["italic"] }
+"ui.selection" = { fg = "white", bg = "red" }
 
 "ui.window" = { fg = "brown" }
 
