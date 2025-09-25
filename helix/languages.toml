@@ -1,15 +1,17 @@
 [[language]]
 name = "cpp"
-language-servers = ["clangd.cpp"]
+language-servers = ["clangd-cpp"]
 
-[language-server.clangd.cpp]
+[language-server.clangd-cpp]
+command = "clangd"
 fallbackFlags = ["-std=c++23",  "-Wall", "-Wextra"]
 
 [[language]]
 name = "c"
-language-servers = ["clangd.c"]
+language-servers = ["clangd-c"]
 
-[language-server.clangd.c]
+[language-server.clangd-c]
+command = "clangd"
 fallbackFlags = ["-std=c17",  "-Wall", "-Wextra"]
 
 [[language]]
