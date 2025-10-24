@@ -1,0 +1,28 @@
+{
+    "schemes": 
+    [
+        {
+            "background": "#1F1C1B",
+            "black": "#4A4A4A",
+            "blue": "#0037DA",
+            "brightBlack": "#8A8A8A",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#A8F36F",
+            "cyan": "#3A96DD",
+            "foreground": "#FFEEC0",
+            "green": "#13A10E",
+            "name": "Bunzao",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#2A4977",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        }
+    ]
+}
