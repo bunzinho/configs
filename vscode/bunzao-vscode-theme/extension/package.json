@@ -1,0 +1,32 @@
+{
+	"name": "Bunzao",
+	"displayName": "Bunzão",
+	"description": "A theme for a bun by a bun.",
+	"version": "0.0.1",
+	"publisher": "bunzinho",
+	"engines": {
+		"vscode": "^1.84.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Bunzão",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bunzao-dark.json"
+			},
+			{
+				"label": "Bunzão Light",
+				"uiTheme": "vs",
+				"path": "./themes/bunzao-light.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1761278351326,
+		"targetPlatform": "undefined",
+		"size": 7257
+	}
+}

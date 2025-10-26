@@ -1,0 +1,153 @@
+{
+	"name": "Bunzão",
+	"colors": {
+        "editor.background": "#1f1c1b",
+        "activityBar.background": "#1f1c1b",
+        "titleBar.activeBackground": "#1f1c1b",
+        "titleBar.inactiveBackground": "#1f1c1b",
+        "editorGroupHeader.tabsBackground": "#1f1c1b",
+        "statusBar.background": "#1f1c1b",
+        "tab.inactiveBackground": "#1f1c1b",
+        "sideBar.background": "#1f1c1b",
+        "statusBar.noFolderBackground": "#1f1c1b",
+        
+        "tab.border": "#38302d",
+        "titleBar.border": "#38302d",
+        "statusBar.border": "#38302d",
+        "activityBar.border": "#38302d",
+        "sideBar.border": "#38302d",
+        "editorGroupHeader.tabsBorder": "#38302d",
+        
+        "editorWidget.resizeBorder": "#887e66",
+        "menu.border": "#887e66",
+        
+        "activityBarBadge.foreground": "#1f1c1b",
+        "activityBarBadge.background": "#90e250",
+
+        "progressBar.background": "#90e250",
+        "tab.activeBorder": "#90e25000",
+        "tab.activeBorderTop": "#90e250",
+        "activityBar.activeBorder": "#90e250",
+        "editorCursor.foreground": "#a8f36f",
+        "textLink.foreground": "#91ca68",
+        
+        "foreground": "#ffeec0",
+        "titleBar.activeForeground": "#ffeec0",
+        "tab.activeForeground": "#ffeec0",
+        "tab.inactiveForeground": "#887e66",
+        "editor.foreground": "#ffeec0",
+        "activityBar.foreground": "#ffeec0",
+        "activityBar.inactiveForeground": "#ffeec0",
+        "sideBarTitle.foreground": "#ffeec0",
+        "statusBar.foreground": "#ffeec0",
+        "editorWidget.foreground": "#ffeec0",
+        "editorHoverWidget.foreground": "#ffeec0",
+        "button.foreground": "#ffeec0",
+        "button.secondaryForeground": "#ffeec0",
+        "statusBar.noFolderForeground": "#ffeec0",
+        "icon.foreground": "#ffeec0",
+
+        "list.warningForeground": "#ffc400",
+        "editorWarning.foreground": "#ffc400",
+        
+        "menu.foreground": "#ffeec0",
+        "menu.background": "#26272c",
+        
+        "selection.background": "#2a4977",
+        "editor.selectionBackground": "#2a4977",
+        "editor.findMatchBackground": "#2a4977"
+	},
+	"tokenColors":[
+        {
+            "name": "keyword and control",
+            "scope":["keyword","keyword.control"],
+            "settings": {
+                "foreground": "#c191ff"
+            }
+        },
+        {
+            "name": "keyword operator",
+            "scope":["keyword.operator"],
+            "settings": {
+                "foreground": "#ffeec0"
+            }
+        },
+        {
+            "name": "storage",
+            "scope":["storage"],
+            "settings": {
+                "foreground": "#b8e993"
+            }
+        },
+        {
+            "name": "storage modifier array",
+            "scope":["storage.modifier.array"],
+            "settings": {
+                "foreground": "#ffeec0"
+            }
+        },
+        {
+            "name": "functions",
+            "scope":["entity.name.function","support.function"],
+            "settings": {
+                "foreground": "#ffd166"
+            }
+        },
+        {
+            "name": "entity name",
+            "scope":["entity.name"],
+            "settings": {
+                "foreground": "#D24858"
+            }
+        },
+        {
+            "name": "variables",
+            "scope":["variable","variable.other.object"],
+            "settings": {
+                "foreground": "#d27448"
+            }
+        },
+        {
+            "name": "variable paramters",
+            "scope":["variable.parameter"],
+            "settings": {
+                "foreground": "#8dcae6"
+            }
+        },
+        {
+            "name": "constants",
+            "scope":["constant"],
+            "settings": {
+                "foreground": "#ecaad2"
+            }
+        },
+        {
+            "name": "strings",
+            "scope":["string"],
+            "settings": {
+                "foreground": "#83aa83"
+            }
+        },
+        {
+            "name": "comment",
+            "scope":["comment"],
+            "settings": {
+                "foreground": "#5B5E66"
+            }
+        },
+        {
+            "name": "support type primitive",
+            "scope":["support.type.primitive"],
+            "settings": {
+                "foreground": "#D24858"
+            }
+        },
+        {
+            "name": "support type property name",
+            "scope":["support.type.property-name"],
+            "settings": {
+                "foreground": "#d36969"
+            }
+        }
+    ]
+}
