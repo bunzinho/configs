@@ -1,8 +1,8 @@
 {
-	"name": "Bunzao",
+	"name": "bunzao",
 	"displayName": "Bunzão",
-	"description": "A theme for a bun by a bun.",
-	"version": "0.0.1",
+	"description": "A theme for a bun, by a bun.",
+	"version": "1.0.0",
 	"publisher": "bunzinho",
 	"engines": {
 		"vscode": "^1.84.0"
@@ -23,10 +23,5 @@
 				"path": "./themes/bunzao-light.json"
 			}
 		]
-	},
-	"__metadata": {
-		"installedTimestamp": 1761278351326,
-		"targetPlatform": "undefined",
-		"size": 7257
 	}
 }

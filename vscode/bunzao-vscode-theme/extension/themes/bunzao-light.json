@@ -1,9 +1,25 @@
 {
 	"name": "Bunzão Light",
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "namespace":"#d03040",
+        "class":"#d03040",
+        "type": "#d03040",
+        "property": "#a74900",
+        "variable": "#a74900",
+        "function": "#000000",
+        "method":"#000000",
+        "keyword": "#3333c0",
+        "operator":"#000000",
+        "number": "#a000a0",
+        "string": "#009000",
+        "comment": "#83aa83"
+    },
 	"colors":
     {
         "foreground":"#000000",
         "focusBorder":"#d03040",
+        "disabledForeground":"#00000080",
 
         "titleBar.border":"#00000020",
         
@@ -154,7 +170,10 @@
 	"tokenColors":[
         {
             "name": "keyword and control",
-            "scope":["keyword","keyword.control"],
+            "scope":[
+                "keyword",
+                "keyword.control"
+            ],
             "settings": {
                 "foreground": "#3333c0"
             }
@@ -182,7 +201,10 @@
         },
         {
             "name": "functions",
-            "scope":["entity.name.function","support.function"],
+            "scope":[
+                "entity.name.function",
+                "support.function"
+            ],
             "settings": {
                 "foreground": "#000000"
             }
@@ -196,7 +218,10 @@
         },
         {
             "name": "variables",
-            "scope":["variable","variable.other.object"],
+            "scope":[
+                "variable",
+                "variable.other.object"
+            ],
             "settings": {
                 "foreground": "#a74900"
             }
@@ -205,12 +230,15 @@
             "name": "variable paramters",
             "scope":["variable.parameter"],
             "settings": {
-                "foreground": "#8dcae6"
+                "foreground": "#000000"
             }
         },
         {
             "name": "constants",
-            "scope":["constant", "variable.other.constant"],
+            "scope":[
+                "constant",
+                "variable.other.constant"
+            ],
             "settings": {
                 "foreground": "#a000a0"
             }
