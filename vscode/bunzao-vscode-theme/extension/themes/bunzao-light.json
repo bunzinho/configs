@@ -51,6 +51,8 @@
         "sideBar.background":"#ffeedd",
         "sideBarSectionHeader.border":"#00000020",
         "sideBar.border": "#00000080",
+        "sideBarSectionHeader.background":"#e6d8cb",
+        "sideBarTitle.foreground": "#010101",
         
         "list.hoverBackground":"#00000020",
         "list.activeSelectionBackground":"#00000030",
@@ -75,8 +77,12 @@
         "tab.activeBorderTop":"#d03040",
         "tab.border": "#00000080",
         "tab.inactiveForeground":"#000000ff",
-        "tab.unfocusedInactiveForeground":"#000000a0",
         "tab.inactiveBackground":"#e6d8cb",
+        "tab.unfocusedInactiveForeground":"#000000",
+        "tab.hoverForeground":"#000000",
+        "tab.hoverBackground":"#ffffff80",
+        "tab.unfocusedHoverForeground":"#000000",
+        "tab.unfocusedHoverBackground":"#ffffff80",
         "tab.dragAndDropBorder":"#ff0000",
 
         "breadcrumb.background":"#ffeedd",
@@ -125,6 +131,13 @@
         "editorMarkerNavigationWarning.background":"#dbab00",
         "editorMarkerNavigationInfo.background":"#3333c0",
         
+        "editorWidget.background":"#dadada",
+        "editorWidget.border":"#000000",
+        "editorWidget.foreground":"#000000",
+        "editorWidget.resizeBorder":"#d03040",
+
+        "editorWarning.foreground": "#dbab00",
+
         "statusBar.foreground":"#ffeedd",
         "statusBar.background": "#d03040",
         "statusBar.border":"#d03040",
@@ -136,27 +149,14 @@
         "scrollbarSlider.hoverBackground":"#38302dcc",
         "scrollbarSlider.activeBackground":"#d03040",
 
-        "sideBarSectionHeader.background":"#e6d8cb",
-
-
-        "editorWidget.background":"#dadada",
-        "editorWidget.border":"#000000",
-        "editorWidget.foreground":"#000000",
-        "editorWidget.resizeBorder":"#d03040",
-        
         "widget.shadow":"#00000020",
         "widget.border":"#00000080",
 
         "pickerGroup.foreground":"#d03040",
 
         "button.background":"#d03040",
-        "button.foreground":"#ffffff",
+        "button.foreground":"#ffffff",     
 
-        "editorWarning.foreground": "#dbab00",
-        
-        "sideBarTitle.foreground": "#010101",
-
-        
         "progressBar.background": "#d03040",
         "textLink.foreground": "#3333c0",
         
