@@ -69,7 +69,14 @@
 
         "editorLineNumber.activeForeground":"#7bc741",
         "editorLineNumber.foreground":"#887e66",
-        "terminal.foreground":"#ffeec0"
+        "panelTitle.activeForeground":"#ffeec0",
+        "panelTitle.inactiveForeground":"#887e66",
+        "panelTitle.activeBorder":"#887e66",
+        "terminal.foreground":"#ffeec0",
+        "statusBarItem.remoteForeground":"#ffeec0",
+        "statusBarItem.remoteBackground":"#1f1c1b",
+        "statusBarItem.hoverForeground":"#ffffff",
+        "statusBarItem.hoverBackground":"#2a4977"
 	},
 	"tokenColors":[
         {
