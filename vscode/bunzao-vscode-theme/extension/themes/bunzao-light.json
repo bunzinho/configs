@@ -22,16 +22,16 @@
         "disabledForeground":"#00000080",
 
         "titleBar.border":"#00000020",
-        "titleBar.activeBackground": "#ffeedd",
-        "titleBar.inactiveBackground": "#ffeedd",
-        "titleBar.activeForeground": "#010101",
+        "titleBar.activeBackground":"#d03040",
+        "titleBar.inactiveBackground":"#aa2734",
+        "titleBar.activeForeground":"#ffeedd",
         
         "menu.foreground":"#000000",
         "menu.background": "#dadada",
         "menu.border":"#000000",
         "menu.separatorBackground":"#00000030",
-        "menubar.selectionForeground":"#ffffff",
-        "menubar.selectionBackground":"#d03040",
+        "menubar.selectionForeground":"#000000",
+        "menubar.selectionBackground":"#dadada",
         "menubar.selectionBorder":"#00000000",
         "menu.selectionBorder":"#00000000",
         "menu.selectionForeground":"#ffffff",
@@ -88,7 +88,7 @@
         "breadcrumb.background":"#ffeedd",
 
         "editorLineNumber.foreground": "#887e66",
-        "editorLineNumber.activeForeground":"#32aa32",
+        "editorLineNumber.activeForeground":"#e00000",
 
         "editorGutter.addedBackground":"#009000",
         "editorGutter.modifiedBackground":"#3333c0",
@@ -138,11 +138,17 @@
 
         "editorWarning.foreground": "#dbab00",
 
+        "panelTitle.activeForeground":"#000000",
+        "panelTitle.inactiveForeground":"#333333",
+        "panelTitle.activeBorder":"#000000",
+        "terminal.foreground":"#000000",
+        
         "statusBar.foreground":"#ffeedd",
         "statusBar.background": "#d03040",
         "statusBar.border":"#d03040",
         "statusBar.noFolderForeground":"#ffeedd",
         "statusBar.noFolderBackground":"#d03040",
+        "statusBarItem.hoverBackground":"#00000090",
         
         "scrollbar.shadow": "#00000000",
         "scrollbarSlider.background":"#38302d80",
