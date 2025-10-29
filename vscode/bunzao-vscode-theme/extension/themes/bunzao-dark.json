@@ -1,16 +1,23 @@
 {
 	"name": "Bunzão",
 	"colors": {
+        "titleBar.activeBackground":"#26272c",
+        "menubar.selectionBackground":"#04395e",
+        "menubar.selectionForeground":"#ffffff",
+        "menu.selectionBackground":"#04395e",
+
         "editor.background": "#1f1c1b",
         "activityBar.background": "#1f1c1b",
-        "titleBar.activeBackground": "#1f1c1b",
         "titleBar.inactiveBackground": "#1f1c1b",
         "editorGroupHeader.tabsBackground": "#1f1c1b",
-        "statusBar.background": "#1f1c1b",
+
         "tab.inactiveBackground": "#1f1c1b",
         "sideBar.background": "#1f1c1b",
-        "statusBar.noFolderBackground": "#1f1c1b",
         
+        "statusBar.background":"#26272c",
+        "statusBar.noFolderBackground":"#26272c",
+        "statusBarItem.remoteBackground":"#26272c",
+
         "tab.border": "#38302d",
         "titleBar.border": "#38302d",
         "statusBar.border": "#38302d",
@@ -74,7 +81,6 @@
         "panelTitle.activeBorder":"#887e66",
         "terminal.foreground":"#ffeec0",
         "statusBarItem.remoteForeground":"#ffeec0",
-        "statusBarItem.remoteBackground":"#1f1c1b",
         "statusBarItem.hoverForeground":"#ffffff",
         "statusBarItem.hoverBackground":"#2a4977"
 	},

@@ -19,7 +19,9 @@
     {
         "foreground":"#000000",
         "focusBorder":"#d03040",
-        "disabledForeground":"#00000080",
+        "disabledForeground":"#00000090",
+        "badge.background":"#d03040",
+        "badge.foreground":"#ffeedd",
 
         "titleBar.border":"#00000020",
         "titleBar.activeBackground":"#d03040",
@@ -74,8 +76,9 @@
         "tab.activeBackground": "#ffeedd",
         "tab.activeForeground":"#000000",
         "tab.activeBorder":"#d0304000",
-        "tab.activeBorderTop":"#d03040",
+        "tab.activeBorderTop":"#000000",
         "tab.border": "#00000080",
+        "tab.selectedBorderTop":"#000000",
         "tab.inactiveForeground":"#000000ff",
         "tab.inactiveBackground":"#e6d8cb",
         "tab.unfocusedInactiveForeground":"#000000",
@@ -141,6 +144,7 @@
         "panelTitle.activeForeground":"#000000",
         "panelTitle.inactiveForeground":"#333333",
         "panelTitle.activeBorder":"#000000",
+        "panel.border":"#000000",
         "terminal.foreground":"#000000",
         
         "statusBar.foreground":"#ffeedd",
