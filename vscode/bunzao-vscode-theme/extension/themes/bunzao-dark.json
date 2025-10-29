@@ -8,7 +8,7 @@
 
         "editor.background": "#1f1c1b",
         "activityBar.background": "#1f1c1b",
-        "titleBar.inactiveBackground": "#1f1c1b",
+        "titleBar.inactiveBackground": "#202021",
         "editorGroupHeader.tabsBackground": "#1f1c1b",
 
         "tab.inactiveBackground": "#1f1c1b",
@@ -28,6 +28,8 @@
         "editorWidget.resizeBorder": "#ffeec0",
         "menu.border": "#887e66",
         
+        "badge.foreground":"#1f1c1b",
+        "badge.background":"#90e250",
         "activityBarBadge.foreground": "#1f1c1b",
         "activityBarBadge.background": "#90e250",
 
@@ -67,8 +69,15 @@
         "editorWidget.border":"#887e66",
         
         "selection.background": "#2a4977",
-        "editor.selectionBackground": "#2a4977",
         "editor.findMatchBackground": "#2a4977",
+
+        "editor.selectionBackground": "#04395ec0",
+        "editor.selectionForeground":"#ffffff",
+        "editor.selectionHighlightBorder":"#ffffff10",
+        "editor.selectionHighlightBackground":"#ffffff10",
+        "editor.wordHighlightBorder":"#00000000",
+        "editor.wordHighlightBackground":"#00000000",
+        "editor.wordHighlightTextBackground":"#00000000",
 
         "activityBarTop.inactiveForeground":"#887e66",
         "activityBarTop.foreground":"#ffeec0",
