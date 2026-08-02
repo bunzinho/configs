@@ -1,0 +1,6 @@
+{
+	"working_dir": "$folder",
+	"shell_cmd": "build",
+	"quiet": true,
+	"file_regex": "^((?:[a-zA-Z]:)?[^:\\n]+)\\((\\d+)\\)\\s*:\\s*(?:error|warning)\\s+\\w+\\d+:\\s*()(.*)$"
+}
