@@ -1,0 +1,43 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+		"font_face": "Comic Neue Bold",
+		"font_size_sm": 14,
+		"font_size": 14,
+		"font_size_lg": 16,
+	},
+	"rules":
+	[
+		{
+			"class": "tab_label",
+			"font.face": "var(font_face)",
+			"font.italic": false,
+		},
+		{
+			"class": "quick_panel_label",
+			"font.face": "var(font_face)",
+			"font.italic": false
+		},
+		{
+			"class": "quick_panel_detail_label",
+			"font.face": "var(font_face)",
+			"font.italic": false
+		},
+		{
+			"class": "auto_complete_hint",
+			"font.face": "var(font_face)",
+			"font.italic": false
+		},
+		{
+			"class": "kind_label",
+			"font.face": "var(font_face)",
+			"font.italic": false
+		},
+		{
+			"class": "auto_complete_kind_name_label",
+			"font.face": "var(font_face)",
+			"font.italic": false
+		}
+	]
+}
