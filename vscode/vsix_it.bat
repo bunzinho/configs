@@ -1,1 +1,1 @@
-powershell -ExecutionPolicy Bypass -File "%~dp0vsix_it.ps1"
+tar --format zip -c -f bunzao-vscode-theme.vsix -C bunzao-vscode-theme *
