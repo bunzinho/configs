@@ -58,12 +58,12 @@
 
 
     "editor.foreground": "#ffeec0",
-    "editor.background": "#1f1c1b",
+    "editor.background": "#00000f",
     "editorCursor.foreground": "#a8f36f",
     "editor.selectionBackground": "#04395ec0",
     "editor.selectionForeground":"#ffffff",
-    "editor.selectionHighlightBorder":"#ffffff10",
-    "editor.selectionHighlightBackground":"#ffffff10",
+    "editor.selectionHighlightBorder":"#ffee0000",
+    "editor.selectionHighlightBackground":"#ffee002c",
     "editor.findMatchBackground": "#2a4977",
     "editor.wordHighlightBorder":"#00000000",
     "editor.wordHighlightBackground":"#00000000",
